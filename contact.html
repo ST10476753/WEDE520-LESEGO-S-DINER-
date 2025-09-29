@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lesego's Diner — Contact / Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-brand">
+      <a href="index.html">Lesego's Diner</a>
+    </div>
+
+    <input id="nav-toggle" type="checkbox" />
+    <label for="nav-toggle" class="hamburger" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html" class="active">Contact / Booking</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Contact & Booking</h1>
+        <p>Make a booking or contact us for catering and private events.</p>
+      </div>
+    </section>
+
+    <section class="contact-section container">
+      <div class="contact-grid">
+        <form class="contact-form" method="post" action="mailto:info@lesegosdiner.co.za">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel" required>
+
+          <label for="message">Message / Booking details</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn">Send Booking Request</button>
+        </form>
+
+        <aside class="contact-details">
+          <h3>Booking Info</h3>
+          <p><strong>Address:</strong> 123 Sushi Street, Johannesburg</p>
+          <p><strong>Phone:</strong> +27 11 123 4567</p>
+          <p><strong>Email:</strong> info@lesegosdiner.co.za</p>
+
+          <h4>Business hours</h4>
+          <p>Mon–Fri: 11:00 — 21:00<br>Sat–Sun: 09:00 — 22:00</p>
+
+          <h4>Promotions & Loyalty</h4>
+          <p>We plan to add a loyalty program and promotions section on the website. Customers will be able to sign up to receive offers and earn rewards.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Lesego's Diner</p>
+    </div>
+  </footer>
+</body>
+</html>
+
